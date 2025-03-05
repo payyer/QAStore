@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { Product } from "../../app/models/product";
-import { CssBaseline } from "@mui/material";
 import ProductList from "./ProductList";
 
 export default function Catalog() {
@@ -17,7 +16,6 @@ export default function Catalog() {
 
   return (
     <>
-      <CssBaseline />
       <ProductList products={products} />
     </>
   );
